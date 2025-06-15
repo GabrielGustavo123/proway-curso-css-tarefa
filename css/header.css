@@ -1,0 +1,31 @@
+.header{
+    background-color: #242c36;
+    padding: 10px;
+}
+
+.header .top{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2rem;
+    color: #6b7785;
+}
+
+.header .top:hover{
+    color: #ddd;
+}
+
+.header .nav{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header .arrow{
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #6b7785;
+}
