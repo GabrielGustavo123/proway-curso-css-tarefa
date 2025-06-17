@@ -1,0 +1,80 @@
+.header .jogos{
+    color: #2da6e3;
+    text-decoration: underline;
+}
+.pesquisa{
+    background-color: #00588f;
+    max-width: 900px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.pesquisa .a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pesquisa .buscar{
+    background-color: #74a5c4;
+    color: #4d5e69;
+    border: solid;
+    border-color: #4d5e69;
+    border-width: 1px;
+    padding: 5px;
+}
+.opcoes{
+    background-color: #242c36;
+    margin: 0px auto;
+    width: 900px;
+    height: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.opcoes .grande{
+
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.opcoes .miniatura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.opcoes .pequena{
+  width: 130px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  margin: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.opcoes .pequena:hover{
+    transform: scale(1.2);
+
+}
+
+.opcoes .nome{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 10px;
+    max-width: 400px;
+    max-height: 80px;
+    display: flex;
+}
+
+
