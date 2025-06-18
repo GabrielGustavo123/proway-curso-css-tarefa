@@ -27,54 +27,81 @@
     border-width: 1px;
     padding: 5px;
 }
-.opcoes{
+
+.destaques{
+    color: #fff;
+    margin: 20px auto;
+    width: 900px;
+    height: 20px;
+    font-size: 1.1rem;
+}
+
+.conteiner{
     background-color: #242c36;
-    margin: 0px auto;
     width: 900px;
     height: 300px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     display: flex;
 }
-
-.opcoes .grande{
-
-    width: 600px;
+.conteiner .imagem{
+    background-image: url('https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg');
+    width: 500px;
     height: 300px;
-    object-fit: cover;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-
-.opcoes .miniatura{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.conteiner .direito{
+    width: 400px;
+    height: 300px;
     padding: 20px;
+    display: block;
 }
 
-.opcoes .pequena{
-  width: 130px;
-  height: 80px;
-  object-fit: cover;
-  transition: transform 0.3s;
-  margin: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  display: flex;
-}
-.opcoes .pequena:hover{
-    transform: scale(1.2);
-
-}
-
-.opcoes .nome{
+.conteiner .direito .nome{
     color: #fff;
-    font-size: 1.5rem;
-    margin: 10px;
-    max-width: 400px;
-    max-height: 80px;
+}
+.conteiner .direito .miniatura1{
+    background-image: url('https://s2-ge.glbimg.com/fG804S7nzjxQ0YKjgLJpdmvzW94=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/A/4/qoa2xGTmq2flZSq4oNbg/cs2.jpg');
+    width: 170px;
+    height: 100px;
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    margin-left: 20px;
+}
+
+.conteiner .direito .miniatura2{
+    background-image: url('https://gamenoticias.com.br/wp-content/uploads/2025/01/As-Melhores-Miras-do-CS2-em-2025-Codigos.jpg');
+    width: 170px;
+    height: 100px;
+    margin: 30px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.conteiner .direito .miniatura2:hover,
+.conteiner .direito .miniatura1:hover{
+    transform: scale(1.2);
+}
+
+.conteiner .direito .teste{
     display: flex;
 }
 
+.conteiner .direito .botao .button{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #00bfd9;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+}
 
+.conteiner .direito .botao .button:hover{
+    background-color: #0090a3;
+}
