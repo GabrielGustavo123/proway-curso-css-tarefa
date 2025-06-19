@@ -228,20 +228,26 @@
 
 
 .conteiner2 .block .image3{
-    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1728989088');
+    background-color: #3084a6;
+     /* url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1728989088'); */
     width: 300px;
     height: 195px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); 
+    
+}
+
+.conteiner2 .block .image3 .foto3{
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1728989088');
+    width: 300px;
+    height: 140px;
     background-size: contain;
     background-position: center; 
-    background-repeat: no-repeat; 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); 
+    background-repeat: no-repeat;
 }
 
 
-
-
 .conteiner2 .block .image4{
-    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1750183601');
+    background-color: #3084a6;
     width: 300px;
     height: 195px;
     margin-top: 10px;
@@ -249,6 +255,15 @@
     background-position: center; 
     background-repeat: no-repeat;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.conteiner2 .block .image4 .foto4{
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1750183601');
+    width: 300px;
+    height: 140px;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .conteiner2 .promo1 .promocao1 button{
@@ -276,5 +291,77 @@
 }
 
 .conteiner2 .promo2 .promocao2 button:hover{
+    background-color: #0090a3;
+}
+
+.conteiner2 .block .image3 .perc{
+    display: flex;
+}
+
+.conteiner2 .block .image4 .perc{
+    display: flex;
+}
+
+.conteiner2 .block .image3 .perc .h21{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 3px;
+    text-align: center;
+    background-color: #0f8200;
+    color: #74fc62;
+}
+
+.conteiner2 .block .image3 .perc .h22{
+    margin-top: 10px;
+    padding: 3px;
+    text-align: center;
+    background-color: #535452;
+    color: #74fc62;
+}
+
+.conteiner2 .block .image4 .perc .h21{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 3px;
+    text-align: center;
+    background-color: #0f8200;
+    color: #74fc62;
+}
+
+.conteiner2 .block .image4 .perc .h22{
+    margin-top: 10px;
+    padding: 3px;
+    text-align: center;
+    background-color: #535452;
+    color: #74fc62;
+}
+
+.conteiner2 .block .image4 .perc button{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #00bfd9;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.conteiner2 .block .image4 .perc button:hover{
+    background-color: #0090a3;
+}
+
+.conteiner2 .block .image3 .perc button{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #00bfd9;
+    border-radius: 4px;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.conteiner2 .block .image3 .perc button:hover{
     background-color: #0090a3;
 }
