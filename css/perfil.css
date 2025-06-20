@@ -1,0 +1,88 @@
+.header .perfil{
+    color: #2da6e3;
+    text-decoration: underline;
+}
+
+body{
+    background-color: #1c1c1c;
+}
+
+.base{
+    background-color: #1c183b;
+    margin: 0px auto;
+    width: 1100px;
+    height: 15000px   ;
+    overflow: hidden;
+}
+
+.base .profile{
+    height: 260px;
+    display: flex;
+}
+
+.base .profile .foto{
+    background-image: url('https://avatars.akamai.steamstatic.com/08daca9fa69752aaefd623355091e7a4720acfa1_full.jpg');
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.base .profile h2{
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+
+.base .atividade{
+    background-color: #14122b;
+    width: 700px;
+    height: 700px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.base .atividade h4{
+    background-color: #24213d;
+    color: #ddd;
+    padding: 8px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.base .atividade .jogados1{
+    width: 670px;
+    height: 170px;
+    background-color: #0f0e21;
+    margin: 35px auto;
+    border-radius: 4px;
+}
+
+.base .atividade .jogados1 .detalhes{
+    width: 670px;
+    height: 90px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
+
+.base .atividade .jogados1 .detalhes .imagem{
+    background-image: url('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_184x69.jpg?t=1749053861');
+    height: 69px;
+    width: 184px;
+    background-size: cover;
+    background-position: center;
+    margin: 7px;
+}
+
+.base .atividade .jogados1 .detalhes h4{
+    border-radius: 0px;
+    background-color: #0f0e21;
+    margin-top: 7px;
+}

@@ -365,3 +365,6 @@
 .conteiner2 .block .image3 .perc button:hover{
     background-color: #0090a3;
 }
+a{
+    text-decoration: none;
+}
