@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/padrao.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/perfil.css">
+    <script src="js/nome.js"></script>
 </head>
 
-<body>
+<body onload="nomeImportado()">
     <div class="header">
         <a href="#" class="top"><img src="https://cdn-icons-png.flaticon.com/512/1451/1451303.png" alt="" width="20">
             Nexo</a>
@@ -29,7 +30,7 @@
     <div class="base">
         <div class="profile">
             <div class="foto"></div>
-            <h2>TIGRÃOZN💩</h2>
+            <h2 id="usuario"></h2>
         </div>
         <div class="flex">
             <div class="atividade">

@@ -6,6 +6,7 @@
     <title>Nexo</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/padrao.css">
+    <script src="js/informacoes.js"></script>
 </head>
 <body>
     <div class="login">
@@ -20,8 +21,12 @@
                     <label for="senha">Senha</label>
                     <input type="text" name="senha" id="senha" placeholder="Sua senha" required>
                 </div>
+                <div>
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="nome" id="usuario" placeholder="Seu usuario" required>
+                </div>
                 
-                <button type="submit"><i class="fa-solid fa-user"></i> Entrar</button>
+                <button onclick="salvarNome()" type="submit"><i class="fa-solid fa-user"></i> Entrar</button>
             </form>
         </div>
     </div>
