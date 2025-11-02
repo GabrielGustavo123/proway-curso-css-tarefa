@@ -181,7 +181,7 @@ h2{
 
 .conteiner .inf .datalancamento .dia{
     font-size: 12px;
-    color: #66c0f4;
+    color: #8f98a0;
 }
 
 .conteiner .inf .desenvolvedora{
@@ -225,5 +225,12 @@ h2{
 .conteiner .inf .destribuidora .name{
     font-size: 12px;
     color: #66c0f4;
+}
+
+
+
+.conteiner .inf .destribuidora .name:hover,
+.conteiner .inf .desenvolvedora .name:hover{
+    transform: color(#fff);
 }
 

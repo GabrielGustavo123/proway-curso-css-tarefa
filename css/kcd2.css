@@ -2,3 +2,228 @@
     text-decoration: underline;
     color: #2da6e3;
 }
+
+.conteiner{
+    background-color: #242c36;
+    width: 940px;
+    height: 430px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.conteiner .imagens{
+    width: 600px;
+    height: 430px;
+}
+
+.conteiner .imagens .imagem{
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/ss_935ddb59f90bc2c21c706132cb9b446fe7851c19.600x338.jpg?t=1761570094');
+    width: 600px;
+    height: 337px; 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+.conteiner .imagens .miniaturas{
+    display: flex;
+}
+
+.conteiner .imagens .miniatura:hover,
+.conteiner .imagens .miniatura2:hover,
+.conteiner .imagens .miniatura3:hover,
+.conteiner .imagens .miniatura4:hover,
+.conteiner .imagens .miniatura5:hover{
+    transform: scale(1.1);
+}
+
+.conteiner .imagens .miniatura{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/ss_709f3329562cd2cfe6db70bac908b3e72eaef83b.116x65.jpg?t=1761570094");
+    margin: 3px 6px 3px 0px;
+}
+.conteiner .imagens .miniatura2{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/ss_bd668f4d12300c019fa3fa73108aa62929fbf862.116x65.jpg?t=1761570094");
+    margin: 3px 6px 3px 5px;
+}
+.conteiner .imagens .miniatura3{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/ss_5580d672302cdc5f8b7161dc94f266341e61a182.116x65.jpg?t=1761570094");
+    margin: 3px 6px 3px 5px;
+}
+.conteiner .imagens .miniatura4{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/ss_27e006df1aef43380ae7db0d0b08538b26b49daa.116x65.jpg?t=1761570094");
+    margin: 3px 6px 3px 5px;
+}
+.conteiner .imagens .miniatura5{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/ss_e9a693d1027ec19c4fdbe5156abc80adac7039f8.116x65.jpg?t=1761570094");
+    margin: 3px 0px 3px 5px;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 20px auto;
+    width: 900px;
+    height: 20px;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+
+.conteiner .inf{
+    width: 340px;
+    height: 430px;
+    
+}
+
+.conteiner .inf .img{
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/0101ee56ada8a294071a8dbb36db44070cd6b50b/header_alt_assets_4.jpg?t=1761570094');
+    width: 324px;
+    height: 151px; 
+    background-size: cover;
+    background-position: center;
+    margin-left: 16px;
+}
+
+.conteiner .inf .descricao{
+    color:#c4d4df;
+    width: 324px;
+    height: 90px;
+    max-height: 111px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    padding-right: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.conteiner .inf .analiserecente{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.conteiner .inf .analiserecente .analise{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .analiserecente .opniao{
+    font-size: 12px;
+    color: #66c0f4;
+}
+.conteiner .inf .analiserecente .numeros{
+    color: #798a95;
+    font-size: 12px;
+}
+
+
+
+
+.conteiner .inf .analisebr{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.conteiner .inf .analisebr .analise{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .analisebr .opniao{
+    font-size: 12px;
+    color: #66c0f4;
+}
+.conteiner .inf .analisebr .numeros{
+    color: #798a95;
+    font-size: 12px;
+}
+
+
+
+
+
+.conteiner .inf .datalancamento{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+    margin-top: 13px;
+}
+
+.conteiner .inf .datalancamento .data{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .datalancamento .dia{
+    font-size: 12px;
+    color: #8f98a0;
+}
+
+.conteiner .inf .desenvolvedora{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+    margin-top: 13px;
+}
+
+.conteiner .inf .desenvolvedora .dev{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .desenvolvedora .name{
+    font-size: 12px;
+    color: #66c0f4;
+}
+
+
+
+
+
+.conteiner .inf .destribuidora{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.conteiner .inf .destribuidora .des{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .destribuidora .name{
+    font-size: 12px;
+    color: #66c0f4;
+}
+

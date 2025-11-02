@@ -2,3 +2,228 @@
     text-decoration: underline;
     color: #2da6e3;
 }
+
+.conteiner{
+    background-color: #242c36;
+    width: 940px;
+    height: 430px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.conteiner .imagens{
+    width: 600px;
+    height: 430px;
+}
+
+.conteiner .imagens .imagem{
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/d61184a98c1cf2db2b08b2999c04b0519e3615bb/ss_d61184a98c1cf2db2b08b2999c04b0519e3615bb.600x338.jpg?t=1753974947');
+    width: 600px;
+    height: 337px; 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+.conteiner .imagens .miniaturas{
+    display: flex;
+}
+
+.conteiner .imagens .miniatura:hover,
+.conteiner .imagens .miniatura2:hover,
+.conteiner .imagens .miniatura3:hover,
+.conteiner .imagens .miniatura4:hover,
+.conteiner .imagens .miniatura5:hover{
+    transform: scale(1.1);
+}
+
+.conteiner .imagens .miniatura{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/8340fd391012e12be7e4c02e65801a2648a6b60e/ss_8340fd391012e12be7e4c02e65801a2648a6b60e.116x65.jpg?t=1753974947");
+    margin: 3px 6px 3px 0px;
+}
+.conteiner .imagens .miniatura2{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/f2e70b5823510daa062293ff0b03821e1dee2d37/ss_f2e70b5823510daa062293ff0b03821e1dee2d37.116x65.jpg?t=1753974947");
+    margin: 3px 6px 3px 5px;
+}
+.conteiner .imagens .miniatura3{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/6959cc5d64cce82cb68a27457cfa46fb4d50f897/ss_6959cc5d64cce82cb68a27457cfa46fb4d50f897.116x65.jpg?t=1753974947");
+    margin: 3px 6px 3px 5px;
+}
+.conteiner .imagens .miniatura4{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/0231bf16835cd4f6d83523d76aa8d91cb2dfef9b/ss_0231bf16835cd4f6d83523d76aa8d91cb2dfef9b.116x65.jpg?t=1753974947");
+    margin: 3px 6px 3px 5px;
+}
+.conteiner .imagens .miniatura5{
+    width: 115px;
+    height: 65px;
+    background-image: url("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/60690d0fdbd022ab1527ba6d080d42c1812a0f39/ss_60690d0fdbd022ab1527ba6d080d42c1812a0f39.116x65.jpg?t=1753974947");
+    margin: 3px 0px 3px 5px;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 20px auto;
+    width: 900px;
+    height: 20px;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+
+.conteiner .inf{
+    width: 340px;
+    height: 430px;
+    
+}
+
+.conteiner .inf .img{
+    background-image: url('https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1753974947');
+    width: 324px;
+    height: 151px; 
+    background-size: cover;
+    background-position: center;
+    margin-left: 16px;
+}
+
+.conteiner .inf .descricao{
+    color:#c4d4df;
+    width: 324px;
+    height: 90px;
+    max-height: 111px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    padding-right: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.conteiner .inf .analiserecente{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.conteiner .inf .analiserecente .analise{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .analiserecente .opniao{
+    font-size: 12px;
+    color: #66c0f4;
+}
+.conteiner .inf .analiserecente .numeros{
+    color: #798a95;
+    font-size: 12px;
+}
+
+
+
+
+.conteiner .inf .analisebr{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.conteiner .inf .analisebr .analise{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .analisebr .opniao{
+    font-size: 12px;
+    color: #66c0f4;
+}
+.conteiner .inf .analisebr .numeros{
+    color: #798a95;
+    font-size: 12px;
+}
+
+
+
+
+
+.conteiner .inf .datalancamento{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+    margin-top: 13px;
+}
+
+.conteiner .inf .datalancamento .data{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .datalancamento .dia{
+    font-size: 12px;
+    color: #8f98a0;
+}
+
+.conteiner .inf .desenvolvedora{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+    margin-top: 13px;
+}
+
+.conteiner .inf .desenvolvedora .dev{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .desenvolvedora .name{
+    font-size: 12px;
+    color: #66c0f4;
+}
+
+
+
+
+
+.conteiner .inf .destribuidora{
+    width: 324px;
+    height: 16px;
+    margin-left: 16px;
+}
+
+.conteiner .inf .destribuidora .des{
+    color: #798a95;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-right: 10px;
+    min-width: 94px;
+}
+
+.conteiner .inf .destribuidora .name{
+    font-size: 12px;
+    color: #66c0f4;
+}
+
