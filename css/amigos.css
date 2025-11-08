@@ -1,0 +1,202 @@
+.header .perfil{
+    color: #2da6e3;
+    text-decoration: underline;
+}
+
+
+.perfile{
+    height: 127px;
+    width: 1220px;
+    margin: auto;
+    display: flex;
+}
+
+.perfile .foto{
+    background-image: url('https://avatars.akamai.steamstatic.com/08daca9fa69752aaefd623355091e7a4720acfa1_full.jpg');
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.perfile .name{
+    color: #fff;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.base{
+    width: 1220px;
+    height: 741px;
+    margin: auto;
+    background-color: #2e3842;
+}
+
+.base h4{
+    width: 250px;
+    height: 28px;
+    color: #7092a5;
+    padding: 12px 0px 0px 12px
+}
+
+.base .abas{
+    height: 713px;
+    width: 250px;
+}
+
+.base .abas .friends,
+.base .abas .adicionar,
+.base .abas .pedidos,
+.base .abas .recente,
+.base .abas .bloqueados,
+.base .abas .moderadores{
+    height: 40px;
+    width: 250;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.base .abas .friends:hover,
+.base .abas .adicionar:hover,
+.base .abas .pedidos:hover,
+.base .abas .recente:hover,
+.base .abas .bloqueados:hover,
+.base .abas .moderadores:hover{
+    background-color: #475059;
+}
+
+.base .abas .friends span,
+.base .abas .adicionar span,
+.base .abas .pedidos span,
+.base .abas .recente span,
+.base .abas .bloqueados span,
+.base .abas .moderadores span{
+    margin-left: 35px;
+}
+
+.base .abas .friends{
+    background-color: #475059;
+}
+
+.base .base2{
+    display: flex;
+}
+
+.base .base2 .info{
+    width: 940px;
+    height: 713px;
+    margin-left: 30px;
+}
+
+.base .quant{
+    background-color: #015e80;
+    width: 940px;
+    height: 42px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.base .a,
+.base .num,
+.base .barra,
+.base .max{
+    color: #fff;
+}
+
+.base .titulo{
+    margin-top: 8px;
+    width: 452px;
+}
+
+.base .gerenciar{
+    color: #67c1f5;
+    background-color: #67c1f533;
+    border-style: none;
+    padding: 0px 20px;
+    font-size: 1.1rem;
+    margin: 0px 10px;
+    border-radius: 3px;
+}
+
+.base .add{
+    color: #d2efa9;
+    background-color: #73a32e;
+    border-style: none;
+    padding: 0px 20px;
+    font-size: 1.1rem;
+    margin: 0px 10px;
+    border-radius: 3px;
+}
+
+.base .input{
+    padding: 0px 0px 0px 30px;
+    background-color: #00000033;
+    width: 492px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border-style: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.base .jogando{
+    color: #88a4b4;
+}
+
+.base .ingame{
+    width: 920px;
+    height: 48px;
+    display: flex;
+}
+
+.base .p1,
+.base .p2{
+    width: 290px;
+    height: 48px;
+    margin-right: 20px;
+    background-color: #1d1f24cc;
+    border-radius: 1px;
+    margin-top: 5px;
+    display: flex;
+}
+.base .img1{
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://avatars.fastly.steamstatic.com/99f892fc18f0f19a3fc4a00fd62afab64b7c2941_full.jpg');
+}
+
+.base .cor{
+    height: 48px;
+    width: 5px;
+    background-color: #73a32e;
+}
+
+.base .inf{
+    width: 237px;
+    height: 48px;
+    padding-left: 10px;
+    padding-top: 11px;
+}
+
+.base .user{
+    color: #d2efa9;
+}
+
+.base .inf .game{
+    color: #73a32e;
+}
+
+
+.base .img2{
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://avatars.fastly.steamstatic.com/076acf44680cbd989188f1eae99af054c7c98ee5_full.jpg');
+}
